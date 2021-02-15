@@ -1,17 +1,7 @@
 import { User } from './models/User';
 
-const user = new User({ name: 'Sigmund', age: 35 });
+const user = new User({ id: 1 });
 
-user.on('click', () => {
-  console.log('Click #1');
-});
+user.set({ age: 25 });
 
-user.on('click', () => {
-  console.log('Click #2');
-});
-
-user.on('mousedown', () => {
-  console.log('Mousedown Event');
-});
-
-user.trigger('mousedown');
+user.save();
