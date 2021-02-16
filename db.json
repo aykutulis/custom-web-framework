@@ -8,6 +8,11 @@
       "name": "Sigmund",
       "age": 45,
       "id": 2
+    },
+    {
+      "name": "Arthur",
+      "age": 65,
+      "id": 3
     }
   ]
 }
